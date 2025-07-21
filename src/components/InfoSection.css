@@ -1,0 +1,44 @@
+.info-section-card {
+  background: rgba(247, 237, 226, 0.92);
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  padding: 24px 32px;
+  margin-top: 32px;
+  width: 100%;
+  max-width: 900px;
+  color: #3a2d2d;
+}
+
+.info-section-card h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.info-section-desc {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.info-section-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info-section-icon {
+  color: #bfa76a;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 900px) {
+  .info-section-card {
+    max-width: 98vw;
+    padding: 18px 8px;
+    margin-top: 18px;
+  }
+} 
